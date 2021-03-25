@@ -26,16 +26,6 @@ function App() {
   let items = []
   function chooseMode() {
     setCellPosition([])
-    // if (selectedOption.cellNum === 5) {
-    //   setCellStyle('cell-5');
-    //   setCreateField(5);
-    // } else if (selectedOption.cellNum === 10) {
-    //   setCellStyle('cell-10');
-    //   setCreateField(10)
-    // } else {
-    //   setCellStyle('cell-15');
-    //   setCreateField(15)
-    // }
     setCellStyle(`cell-${selectedOption.cellNum}`);
     setCreateField(selectedOption.cellNum);
   }
